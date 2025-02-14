@@ -625,6 +625,8 @@ header {
         display: initial;
     }
     header .navbar {
+        display: flex;
+        flex-direction: column;
         position: absolute;
         top: 100%;
         left: 0;
@@ -643,6 +645,12 @@ header {
         border: .2rem solid rgba(0, 0, 0, .1);
         border-left: .5rem solid var(--red);
         /* background: #fff; */
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+
+
     }
 }
 
